@@ -66,6 +66,7 @@ main {
   display: flex;
   gap: 35px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 button {
   color: rgb(47, 47, 47);
