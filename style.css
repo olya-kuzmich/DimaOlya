@@ -7,13 +7,12 @@
 
 body {
   width: 100vw;
-  min-height: 100%;
+  height: var(--viewport-height);
   background: url("./back.png");
   background-size: cover;
 }
 
 main {
-  height: 100vh;
   padding: 30px;
   display: flex;
   flex-direction: column;
