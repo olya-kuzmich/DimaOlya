@@ -6,6 +6,7 @@ function adjustViewportHeight() {
   document.documentElement.style.setProperty('--viewport-height', `${window.innerHeight}px`);
 };
 adjustViewportHeight();
+window.addEventListener('orientationchange', adjustViewportHeight);
 
 yes.addEventListener("click", function () {
   allPage.innerHTML = "";
