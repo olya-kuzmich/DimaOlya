@@ -2,12 +2,6 @@ let yes = document.querySelector(".yes");
 let no = document.querySelector(".no");
 let allPage = document.querySelector("main");
 
-function adjustViewportHeight() {
-  document.documentElement.style.setProperty('--viewport-height', `${window.innerHeight}px`);
-};
-adjustViewportHeight();
-window.addEventListener('orientationchange', adjustViewportHeight);
-
 yes.addEventListener("click", function () {
   allPage.innerHTML = "";
   allPage.innerHTML = `
